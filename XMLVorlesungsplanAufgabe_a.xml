@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!DOCTYPE vorlesungsplan SYSTEM "./DTDVorlesungsplanAufgabe_b.dtd">
+<!DOCTYPE vorlesungsplan SYSTEM "https://DTDVorlesungplanAufgabe_b.dtd">
 
 <vorlesungsplan>
     <semester> // Semester 1
