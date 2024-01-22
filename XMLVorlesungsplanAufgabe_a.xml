@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE vorlesungsplan SYSTEM "./DTDVorlesungsplanAufgabe_b.dtd">
+
+<vorlesungsplan>
+    <semester> // Semester 1
+        <fach>
+            <titel>Titel des Fachs</titel>
+            <dozent>Name des Dozenten</dozent>
+            <raum>Raumnummer</raum>
+            <zeit>Zeitangabe</zeit>
+        </fach>
+        <fach>
+            <titel>Titel des Fachs</titel>
+            <dozent>Name des Dozenten</dozent>
+            <raum>Raumnummer</raum>
+            <zeit>Zeitangabe</zeit>
+        </fach>
+    </semester>
+    <semester>  // Semester 2
+        <fach>
+            <titel>Titel des Fachs</titel>
+            <dozent>Name des Dozenten</dozent>
+            <raum>Raumnummer</raum>
+            <zeit>Zeitangabe</zeit>
+        </fach>
+        <fach>
+            <titel>Titel des Fachs</titel>
+            <dozent>Name des Dozenten</dozent>
+            <raum>Raumnummer</raum>
+            <zeit>Zeitangabe</zeit>
+        </fach>
+    </semester>
+    <semester>  // Semester 3
+        <fach>
+            <titel>Titel des Fachs</titel>
+            <dozent>Name des Dozenten</dozent>
+            <raum>Raumnummer</raum>
+            <zeit>Zeitangabe</zeit>
+        </fach>
+        <fach>
+            <titel>Titel des Fachs</titel>
+            <dozent>Name des Dozenten</dozent>
+            <raum>Raumnummer</raum>
+            <zeit>Zeitangabe</zeit>
+        </fach>
+    </semester>
+    <semester>  // Semester 4
+        <fach>
+            <titel>Titel des Fachs</titel>
+            <dozent>Name des Dozenten</dozent>
+            <raum>Raumnummer</raum>
+            <zeit>Zeitangabe</zeit>
+        </fach>
+        <fach>
+            <titel>Titel des Fachs</titel>
+            <dozent>Name des Dozenten</dozent>
+            <raum>Raumnummer</raum>
+            <zeit>Zeitangabe</zeit>
+        </fach>
+    </semester>
+    <semester>  // Semester 5
+        <fach>
+            <titel>Titel des Fachs</titel>
+            <dozent>Name des Dozenten</dozent>
+            <raum>Raumnummer</raum>
+            <zeit>Zeitangabe</zeit>
+        </fach>
+        <fach>
+            <titel>Titel des Fachs</titel>
+            <dozent>Name des Dozenten</dozent>
+            <raum>Raumnummer</raum>
+            <zeit>Zeitangabe</zeit>
+        </fach>
+    </semester>
+    <semester>  // Semester 6
+        <fach>
+            <titel>Titel des Fachs</titel>
+            <dozent>Name des Dozenten</dozent>
+            <raum>Raumnummer</raum>
+            <zeit>Zeitangabe</zeit>
+        </fach>
+        <fach>
+            <titel>Titel des Fachs</titel>
+            <dozent>Name des Dozenten</dozent>
+            <raum>Raumnummer</raum>
+            <zeit>Zeitangabe</zeit>
+        </fach>
+    </semester>
+</vorlesungsplan>
