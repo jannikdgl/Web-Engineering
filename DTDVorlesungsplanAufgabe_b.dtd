@@ -1,7 +1,7 @@
 <!DOCTYPE vorlesungsplan [
         <!ELEMENT vorlesungsplan (semester+)>
         <!ELEMENT semester (fach+)>
-        <!ELEMENT fach (titel, dozent, raum, zeit)>
+        <!ELEMENT fach (titel, dozent, raum, datum, zeit)>
         <!ELEMENT titel (#PCDATA)>
         <!ELEMENT dozent (#PCDATA)>
         <!ELEMENT raum (#PCDATA)>

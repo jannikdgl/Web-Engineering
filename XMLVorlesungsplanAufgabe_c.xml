@@ -1,1 +1,101 @@
-<!DOCTYPE vorlesungsplan SYSTEM "DTDVorlesungsplan.dtd">
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE vorlesungsplan SYSTEM "https://DTDVorlesungplanAufgabe_b.dtd">
+
+<vorlesungsplan>
+    <semester> // Semester 1
+        <fach>
+            <titel>Mathe1-Lineare Alg.</titel>
+            <dozent>Hoff, A.</dozent>
+            <raum>H222</raum>
+            <datum>22.01.2023</datum>
+            <zeit>10:30-13:00</zeit>
+        </fach>
+        <fach>
+            <titel>Elektronik</titel>
+            <dozent>Hoff, A.</dozent>
+            <raum>H210</raum>
+            <datum>22.01.2023</datum>
+            <zeit>14:00-16:30</zeit>
+        </fach>
+    </semester>
+    <semester>  // Semester 2
+        <fach>
+            <titel>Mathe Analysis</titel>
+            <dozent>Hoff, A.</dozent>
+            <raum>H222</raum>
+            <datum>15.04.2023</datum>
+            <zeit>8:00-10:15</zeit>
+        </fach>
+        <fach>
+            <titel>DV-Thorie</titel>
+            <dozent>Zinser, C.</dozent>
+            <raum>H222</raum>
+            <datum>15.04.23</datum>
+            <zeit>10:30-13:00</zeit>
+        </fach>
+    </semester>
+    <semester>  // Semester 3
+        <fach>
+            <titel>Mathe2 Angewandte Mathematilk</titel>
+            <dozent>Levenhagen, J.</dozent>
+            <raum>H213</raum>
+            <datum>04.10.2023</datum>
+            <zeit>9:45-12:15</zeit>
+        </fach>
+        <fach>
+            <titel>Netztechnik</titel>
+            <dozent>Schneider, J.</dozent>
+            <raum>H222</raum>
+            <datum>05.10.2023</datum>
+            <zeit>14:00-18:15</zeit>
+        </fach>
+    </semester>
+    <semester>  // Semester 4
+        <fach>
+            <titel>Mathe2 Statistik</titel>
+            <dozent>Oettinger, M.</dozent>
+            <raum>H222</raum>
+            <datum>22.01.2024</datum>
+            <zeit>8:00-10:30</zeit>
+        </fach>
+        <fach>
+            <titel>Web-Engineering 1</titel>
+            <dozent>Schneider, J.</dozent>
+            <raum>H131</raum>
+            <datum>23.01.2024</datum>
+            <zeit>14:00-17:15</zeit>
+        </fach>
+    </semester>
+    <semester>  // Semester 5
+        <fach>
+            <titel>Echtzeitsysteme</titel>
+            <dozent>Spandel</dozent>
+            <raum>H214</raum>
+            <datum>11.12.2024</datum>
+            <zeit>8:45-11:15</zeit>
+        </fach>
+        <fach>
+            <titel>Data Mining</titel>
+            <dozent>Ullrich, M.</dozent>
+            <raum>H213</raum>
+            <datum>11.12.2024</datum>
+            <zeit>11:30-14:00</zeit>
+        </fach>
+    </semester>
+    <semester>  // Semester 6
+        <fach>
+            <titel>Verteilte Systeme</titel>
+            <dozent>Vogt, T.</dozent>
+            <raum>N117</raum>
+            <datum>22.01.2025</datum>
+            <zeit>8:00-12:15</zeit>
+        </fach>
+        <fach>
+            <titel>Netzmanagement</titel>
+            <dozent>Murschall, T.</dozent>
+            <raum>H202</raum>
+            <datum>19.04.25</datum>
+            <zeit>8:00-10:30</zeit>
+        </fach>
+    </semester>
+</vorlesungsplan>
