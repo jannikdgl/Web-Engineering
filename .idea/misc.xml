@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ProjectResources">
+    <resource url="https://DTDTextformatierungAufgabe1.2.dtd" location="$PROJECT_DIR$/DTDVorlesungsplanAufgabe1.1_b.dtd" />
     <resource url="https://DTDVorlesungplanAufgabe_b.dtd" location="$PROJECT_DIR$/DTDVorlesungsplanAufgabe1.1_b.dtd" />
   </component>
 </project>

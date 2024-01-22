@@ -1,0 +1,16 @@
+<!DOCTYPE dokument [
+        <!ELEMENT dokument (person, text)>
+        <!ELEMENT person (name)>
+        <!ELEMENT name (#PCDATA)>
+
+        <!ELEMENT text (abschnitt+)>
+        <!ELEMENT abschnitt (titel, inhalt)>
+        <!ELEMENT titel (#PCDATA)>
+
+        <!ELEMENT inhalt (textformat*)>
+        <!ELEMENT textformat (#PCDATA)>
+        <!ENTITY % fett "<b>%s</b>">
+        <!ENTITY % kursiv "<i>%s</i>">
+        <!ENTITY % format "((%fett;|%kursiv;|&#PCDATA;)*)">
+        <!ELEMENT textformat (#PCDATA|%format;)*>
+        ]>
