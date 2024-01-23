@@ -57,4 +57,4 @@ Eine Glyphe bezieht sich auf ein grafisches Symbol oder einen Schriftzeichenentw
 
 ### 6. Können die obigen Unicode-Zeichen in einem Terminal ausgegeben werden? Erklären Sie ihre Beobachtung.
 
-Die obigen Unicode zeichen können ohne Probleme im Terminal angezeigt werden, weil das Terminal den Unicode Zeichensatz untersützt
+Die obigen Unicode-Zeichen können nicht ohne Problem ausgegben werden, weil der Unicode in UTF-8 wird von der Konsole direkt interpretiert.
