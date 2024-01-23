@@ -64,5 +64,3 @@ Nacher:
 Piwik ist eine Open-Source-Webanalyse-Plattform, die dazu diente, Daten über die Besucher von einer Webseite zu sammeln und zu analysieren. Es ermöglicht Websiten-Betreibern, Einblicke in das Nutzerverhalten zu gewinnen, um Entscheidungen zur Verbesserung der Website-Erfahrung, der Benutzerfreundlichkeit und der Leistung zu treffen.
 
 
-![Alt-Text](./Bildvorher.png)
-![Alt-Text](./Bildnachher.png)
