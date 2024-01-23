@@ -30,10 +30,10 @@ for char in char_array:
     # Gib den UTF-16-Code auf der Konsole aus
     print(
         " -----------------------------------------------------------------------------------------------------------")
-    print(f"|   UTF-8      | {hex(unicode_point)}         | {utf8}            |")
+    print(f"|   UTF-8      | {hex(unicode_point)}         |                 {utf8}            |")
 
     print(" -----------------------------------------------------------------------------------------------------------")
-    print(f"|   UTF-16 BE  | {hex(unicode_point)}         | {utf16_bytes_be.hex()}              |")
+    print(f"|   UTF-16 BE  | {hex(unicode_point)}         |                      {utf16_bytes_be.hex()}              |")
     print(
         " -----------------------------------------------------------------------------------------------------------")
-    print(f"|   UTF-32 BE  | {hex(unicode_point)}         | {utf32_bytes_be.hex()}              |")
+    print(f"|   UTF-32 BE  | {hex(unicode_point)}         |                  {utf32_bytes_be.hex()}              |")
