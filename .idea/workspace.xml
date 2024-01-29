@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="25869029-c43b-4756-a9e3-d4d412c8c19c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Skript_Aufgabe_3.md" afterDir="false" />
-    </list>
+    <list default="true" id="25869029-c43b-4756-a9e3-d4d412c8c19c" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -33,21 +31,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;Labor2&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/ronmunzinger/Documents/DHBW/Web-Engineering/Web-Engineering&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.externalResources&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "Labor3",
+    "last_opened_file_path": "/Users/ronmunzinger/Documents/DHBW/Web-Engineering/Web-Engineering",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.externalResources",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="Aufgabe2.2" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="Web-Engineering" />
@@ -81,7 +79,7 @@
       <option name="presentableId" value="Default" />
       <updated>1705930877601</updated>
       <workItem from="1705930879537" duration="3444000" />
-      <workItem from="1706543002888" duration="2317000" />
+      <workItem from="1706543002888" duration="2994000" />
     </task>
     <servers />
   </component>
