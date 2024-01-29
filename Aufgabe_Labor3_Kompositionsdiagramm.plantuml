@@ -1,0 +1,14 @@
+@startuml
+package "Website - Onepager" {
+together {
+    [Europa]
+    [Europa] --> "Verlinkt" [Blog Europa]
+    [Amerika]
+    [Amerika] --> "Verlinkt" [Blog Amerika]
+    [Asien]
+    [Asien] --> "Verlinkt" [Blog Asien]
+    [Skandinavien]
+    [Skandinavien] --> "Verlinkt" [Blog Skandinavien]
+}
+}
+@enduml
