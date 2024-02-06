@@ -1,0 +1,38 @@
+#imgtitel {
+    max-width: 93%;
+    margin: 50px;
+}
+
+.img1 {
+    max-width: 50%;
+    height: 100%;
+    float: left; /* Bild links ausrichten */
+    margin-right: 20px; /* Abstand zwischen Bild und Text */
+}
+
+.img2 {
+    max-width: 50%;
+    height: 100%;
+    float: right; /* Bild rechts ausrichten */
+    margin-left: 20px; /* Abstand zwischen Bild und Text */
+}
+
+.rectangle {
+    max-width: 100%;
+    height: 300px;
+    background-color: #EBEBEB; /* Farbe des Rechtecks */
+    border: 2px solid #EBEBEB; /* Rand des Rechtecks */
+    margin: 50px;
+}
+
+.text1 {
+    margin-left: 20px;
+}
+
+.text2 {
+    margin-left: 50px;
+    font-weight: bold;
+    font-size: xx-large;
+    font-style: normal;
+    font-family: Helvetica;
+}
