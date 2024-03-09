@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="25869029-c43b-4756-a9e3-d4d412c8c19c" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/OnePager/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/OnePager/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,6 +86,7 @@
       <workItem from="1706543002888" duration="2994000" />
       <workItem from="1706626532826" duration="8835000" />
       <workItem from="1707305080705" duration="605000" />
+      <workItem from="1710022869779" duration="561000" />
     </task>
     <servers />
   </component>
