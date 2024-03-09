@@ -1,0 +1,19 @@
+/* Responsive Formatierung */
+@media only screen and (max-width: 768px) {
+    nav {
+        width: 100%;
+        position: static;
+        height: auto;
+    }
+
+    main {
+        margin-left: 0;
+    }
+
+    aside {
+        position: static;
+        width: 100%;
+        top: auto;
+        right: auto;
+    }
+}

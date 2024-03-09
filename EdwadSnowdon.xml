@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE dokument SYSTEM "https://DTDTextformatierungAufgabe1.2.dtd">
+<dokument>
+    <person>
+        <name>
+            <textformat>
+                %fett;Edward Snowden%fett;
+            </textformat>
+        </name>
+    </person>
+    <text>
+        <abschnitt>
+            <titel>Über Edward Snowden</titel>
+            <inhalt>
+                <textformat>%fett;Edward Snowden%fett; ist ein %kursiv;US-amerikanischer Whistleblower%kursiv; und ehemaliger %kursiv;CIA-Mitarbeiter.%kursiv;</textformat>
+                <textformat>Seine Enthüllungen gaben Einblicke in das Ausmaß der weltweiten Überwachungs- und Spionagepraktiken von Geheimdiensten – überwiegend jenen der Vereinigten Staaten und Großbritanniens. Diese lösten im Sommer 2013 die %schraeg;NSA-Affäre%schraeg; aus.</textformat>
+            </inhalt>
+        </abschnitt>
+        <abschnitt>
+            <titel>Auszeichnungen und Nominierungen</titel>
+            <inhalt>
+                <textformat>Er wurde dafür mehrfach von nichtstaatlichen Organisationen ausgezeichnet und für den Friedensnobelpreis nominiert.</textformat>
+            </inhalt>
+        </abschnitt>
+    </text>
+</dokument>

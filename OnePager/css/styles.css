@@ -1,0 +1,78 @@
+/* Allgemeine Formatierung */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Titelleiste */
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Navigationsmenü */
+nav {
+    background-color: #444;
+    color: #fff;
+    width: 200px;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    padding: 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Hauptbereich */
+main {
+    margin-left: 200px;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.column {
+    flex: 1;
+    margin: 0 10px;
+}
+/* CSS für die Bilder in den Spalten */
+.column img {
+    max-width: 80%;
+    height: auto;
+}
+
+
+/* Seitenbereich */
+aside {
+    background-color: #eee;
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 200px;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

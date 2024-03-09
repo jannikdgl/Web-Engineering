@@ -1,0 +1,25 @@
+dokument {
+    font-family: Arial, sans-serif;
+}
+
+person {
+    font-weight: bold;
+}
+
+abschnitt {
+    margin-bottom: 20px;
+}
+
+titel {
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+inhalt {
+    font-style: italic;
+}
+
+textformat {
+    display: block;
+}
