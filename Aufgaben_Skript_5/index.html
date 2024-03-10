@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Geokoordinaten finden</title>
+</head>
+
+<body>
+
+    <script>
+        function getLocation() {
+            if (navigator.geolocation) {
+                navigator.geolocation.getCurrentPosition(showPosition);
+            } else {
+                alert('Geolocation wird von Ihrem Browser nicht unterstützt.');
+            }
+        }
+
+        function showPosition(position) {
+            const coordinates = 'Breitengrad: ' + position.coords.latitude + ', Längengrad: ' + position.coords.longitude;
+            document.body.textContent = coordinates;
+        }
+
+        const button = document.createElement('button');
+        button.textContent = 'Finde meine Geokoordinaten';
+        button.style.backgroundColor = 'orange';
+        button.style.border = 'none';
+        button.style.padding = '10px 20px';
+        button.style.color = 'white';
+        button.style.cursor = 'pointer';
+        button.addEventListener('click', getLocation);
+        document.body.appendChild(button);
+    </script>
+
+</body>
+
+</html>
