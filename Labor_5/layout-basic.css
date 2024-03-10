@@ -1,0 +1,35 @@
+/* 
+    This file is responsible for fonts and all colors.
+    It handles the styling of fonts and defines color schemes.
+*/
+
+#navbutton_html, #navbutton_css, #navbutton_javascript, #navbutton_nodejs {
+    background-color: #adadad; /* Ändern Sie die Hintergrundfarbe */
+    color: rgb(0, 0, 0);
+    text-align: center; /* Zentrieren Sie den Text */
+    padding: 14px 16px; /* Fügen Sie Polsterung hinzu */
+    width: 80%; /* Legen Sie die Breite auf 80% fest */
+    margin: 0 auto; /* Zentrieren Sie das Element */
+    display: block; /* Stellen Sie sicher, dass das Element als Block angezeigt wird */
+    margin-bottom: 10px; /* Fügen Sie etwas Abstand zwischen den Buttons hinzu */
+    text-decoration: none; /* Entfernen Sie die Unterstreichung */
+    transition: background-color 0.3s ease; /* Fügen Sie eine Übergangseffekt hinzu */
+    font: 20px Arial, sans-serif; /* Ändern Sie die Schriftart und die Schriftgröße */
+}
+
+#navbutton_html:hover, #navbutton_css:hover, #navbutton_javascript:hover, #navbutton_nodejs:hover {
+    background-color: #9b9b9b; /* Ändern Sie die Hintergrundfarbe beim Überfahren mit der Maus */
+}
+
+#navbutton_html:active, #navbutton_css:active, #navbutton_javascript:active, #navbutton_nodejs:active {
+    background-color: #7c7c7c; /* Ändern Sie die Hintergrundfarbe beim Klicken */
+}
+
+#nav h2, #main_html h2, #keywords h2, #main_css h2, #main_javascript h2, #main_nodejs h2 {
+    text-align: center; /* Zentrieren Sie den Text */
+    font: 40px Arial, sans-serif; /* Ändern Sie die Schriftart und die Schriftgröße */
+}
+
+p {
+    font: 20px Arial, sans-serif; /* Ändern Sie die Schriftart und die Schriftgröße */
+}

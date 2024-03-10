@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Labor 4</title>
+    <link rel="stylesheet" href="layout-basic.css">
+    <link rel="stylesheet" href="layout-responsive.css">
+</head>
+
+<script>
+    window.onload = function () {
+        var navbutton_html = document.getElementById('navbutton_html');
+        var navbutton_javascript = document.getElementById('navbutton_javascript');
+        var navbutton_css = document.getElementById('navbutton_css');
+        var navbutton_nodejs = document.getElementById('navbutton_nodejs');
+
+        var main_html = document.getElementById('main_html');
+        var main_javascript = document.getElementById('main_javascript');
+        var main_css = document.getElementById('main_css');
+        var main_nodejs = document.getElementById('main_nodejs');
+
+        main_html.style.display = 'block';
+        main_javascript.style.display = 'none';
+        main_css.style.display = 'none';
+        main_nodejs.style.display = 'none';
+
+        navbutton_html.addEventListener('click', function () {
+            main_html.style.display = 'block';
+            main_javascript.style.display = 'none';
+            main_css.style.display = 'none';
+            main_nodejs.style.display = 'none';
+        });
+
+        navbutton_javascript.addEventListener('click', function () {
+            main_html.style.display = 'none';
+            main_javascript.style.display = 'block';
+            main_css.style.display = 'none';
+            main_nodejs.style.display = 'none';
+        });
+
+        navbutton_css.addEventListener('click', function () {
+            main_html.style.display = 'none';
+            main_javascript.style.display = 'none';
+            main_css.style.display = 'block';
+            main_nodejs.style.display = 'none';
+        });
+
+        navbutton_nodejs.addEventListener('click', function () {
+            main_html.style.display = 'none';
+            main_javascript.style.display = 'none';
+            main_css.style.display = 'none';
+            main_nodejs.style.display = 'block';
+        });
+
+        if (navigator.geolocation) {
+            navigator.geolocation.getCurrentPosition(function(position) {
+                const coordsDiv = document.getElementById('coords');
+                coordsDiv.textContent = 'Latitude: ' + position.coords.latitude + ', Longitude: ' + position.coords.longitude;
+            });
+        } else {
+            console.log("Geolocation is not supported by this browser.");
+        }
+
+        // Anzeige der aktuellen Systemzeit
+        const timeDiv = document.getElementById('time');
+        const now = new Date();
+        timeDiv.textContent = 'Current time: ' + now.toLocaleTimeString();
+    };
+</script>
+
+<body>
+    <div id="Titelleiste">
+        <h1>Webengineering</h1>
+        <div id="coords"></div>
+        <div id="time"></div>
+    </div>
+
+    <div id="nav">
+        <h2>Navigation</h2>
+        <div id="navbutton_html">
+            <p>HTML</p>
+        </div>
+        <div id="navbutton_javascript">
+            <p>Javascript</p>
+        </div>
+        <div id="navbutton_css">
+            <p>CSS</p>
+        </div>
+        <div id="navbutton_nodejs">
+            <p>NodeJs</p>
+        </div>
+    </div>
+
+    <div id="main_html">
+        <div id="main_main">
+            <h2>HTML</h2>
+            <p>
+                HTML (Hypertext Markup Language) ist die Basis für die Strukturierung von Inhalten im World Wide Web. Es
+                handelt sich um eine Auszeichnungssprache, die aus verschiedenen Elementen besteht. Diese Elemente
+                definieren die verschiedenen Teile einer Webseite, wie Überschriften, Absätze, Bilder, Links und vieles
+                mehr. HTML ermöglicht die semantische Strukturierung von Webseiten, was bedeutet, dass der Code nicht
+                nur das Aussehen, sondern auch die Bedeutung der Inhalte beschreibt.
+            </p>
+        </div>
+
+        <div id="keywords">
+            <h2>Begriffe</h2>
+            <p>
+                Elemente: Bausteine in HTML, z.B. für Absätze oder für Bilder.<br><br>
+                Tags: Markierungen, die den Anfang und das Ende eines HTML-Elements kennzeichnen.
+            </p>
+        </div>
+    </div>
+    <div id="main_javascript">
+
+        <div id="main_main">
+            <h2>Javascript</h2>
+            <p>
+                JavaScript ist eine Skriptsprache, die in Webbrowsern ausgeführt wird und es ermöglicht, Webseiten
+                dynamisch zu gestalten. Mit JavaScript können Benutzerinteraktionen verarbeitet, Inhalte geändert und
+                sogar serverseitige Anfragen gestellt werden. Diese Sprache spielt eine entscheidende Rolle bei der
+                Entwicklung moderner, interaktiver Webanwendungen.
+            </p>
+        </div>
+
+        <div id="keywords">
+            <h2>Begriffe</h2>
+            <p>
+                DOM (Document Object Model): Eine Baumstruktur, die die hierarchische Repräsentation von HTML-Dokumenten
+                im Browser darstellt. <br><br>
+                Event: Ein Ereignis, wie das Klicken auf einen Button oder das Laden einer Seite, das von JavaScript
+                abgefangen und verarbeitet werden kann.
+            </p>
+        </div>
+    </div>
+    <div id="main_css">
+
+        <div id="main_main">
+            <h2>CSS</h2>
+            <p>
+                Cascading Style Sheets (CSS) ist eine entscheidende Technologie im Webdesign, die die Darstellung von
+                HTML-Elementen auf einer Webseite steuert. Durch die Trennung von Inhalt und Design ermöglicht CSS eine
+                effiziente Gestaltung und Anpassung von Webseiten. CSS wird in allen modernen Browsern unterstützt und
+                ist eine wichtige Technologie für die Entwicklung von Webanwendungen.
+            </p>
+        </div>
+
+        <div id="keywords">
+            <h2>Begriffe</h2>
+            <p>
+                Selektoren:
+
+                Selektoren sind in CSS Muster, die bestimmte HTML-Elemente auf der Seite auswählen. Sie legen fest,
+                welche Elemente die definierten Stileigenschaften erhalten.
+                Deklarationen:
+
+                Deklarationen bestehen aus Eigenschaften und Werten, die einem ausgewählten HTML-Element zugeordnet
+                sind. Sie definieren das Aussehen des Elements.
+            </p>
+        </div>
+    </div>
+    <div id="main_nodejs">
+        <div id="main_main">
+            <h2>NodeJs</h2>
+            <p>
+                Node.js ist eine serverseitige JavaScript-Laufzeitumgebung, die auf Chrome's V8 JavaScript-Engine
+                basiert. Sie wird verwendet, um skalierbare Netzwerkanwendungen zu erstellen. Node.js kann auf
+                verschiedenen Betriebssystemen ausgeführt werden und ist eine Open-Source-Plattform. Sie ermöglicht es
+                Entwicklern, JavaScript für die serverseitige Skriptausführung zu verwenden, um dynamische Webseiten
+                zu erstellen.
+            </p>
+        </div>
+
+        <div id="keywords">
+            <h2>Begriffe</h2>
+            <p>
+                Node.js: Eine serverseitige JavaScript-Laufzeitumgebung, die auf Chrome's V8 JavaScript-Engine
+                basiert.<br><br>
+                V8: Eine Open-Source-JavaScript-Engine, die in Google Chrome und in Node.js verwendet wird.
+            </p>
+        </div>
+    </div>
+</body>
+
+</html>

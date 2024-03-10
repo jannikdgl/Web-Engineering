@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meine Startseite</title>
+    <link rel="stylesheet" href="styles_startseite.css">
+</head>
+
+<body>
+    <div id="container">
+        <h1>Willkommen auf meiner Seite!</h1>
+        <button onclick="showLoginForm()" class="button">Login</button>
+        <button onclick="showRegisterForm()" class="button">Registrieren</button>
+
+        <form id="loginForm" style="display:none;">
+            <input type="text" id="loginUsername" placeholder="Benutzername" required>
+            <input type="password" id="loginPassword" placeholder="Passwort" required>
+            <button type="button" onclick="login()" class="button">Login</button>
+        </form>
+
+        <form id="registerForm">
+            <input type="text" id="registerUsername" placeholder="Benutzername">
+            <input type="password" id="registerPassword" placeholder="Passwort">
+            <select id="registerInterests">
+                <option value="" disabled selected>Interessen auswählen</option>
+                <option value="html">HTML</option>
+                <option value="css">CSS</option>
+                <option value="javascript">JavaScript</option>
+                <option value="nodejs">Node.js</option>
+            </select>
+            <button type="button" onclick="register()" class="button">Registrieren</button>
+        </form>
+    </div>
+
+    <script>
+        function showLoginForm() {
+            document.getElementById("registerForm").style.display = "none";
+            document.getElementById("loginForm").style.display = "block";
+        }
+
+        function showRegisterForm() {
+            document.getElementById("loginForm").style.display = "none";
+            document.getElementById("registerForm").style.display = "block";
+        }
+
+        function register() {
+            /* Überprüfe ob in jedem Eingabefeld etwas eingegeben wurde */
+            var valid = true;
+            var inputs = document.getElementById("registerForm").getElementsByTagName("input");
+            for (var i = 0; i < inputs.length; i++) {
+                if (inputs[i].value === "") {
+                    valid = false;
+                }
+            }
+            if (!valid) {
+                alert("Bitte fülle alle Felder aus!");
+                return;
+            }
+
+            var username = document.getElementById("registerUsername").value;
+            var password = document.getElementById("registerPassword").value;
+            var interests = document.getElementById("registerInterests").value;
+
+            var userData = {
+                username: username,
+                password: password,
+                interests: interests
+            };
+
+            var existingData = JSON.parse(localStorage.getItem("userData")) || { users: [] };
+            existingData.users.push(userData);
+            localStorage.setItem("userData", JSON.stringify(existingData));
+
+            console.log("Benutzer wurde registriert:", userData);
+        }
+
+        function login() {
+            var username = document.getElementById("loginUsername").value;
+            var password = document.getElementById("loginPassword").value;
+            console.log("Login-Versuch für Benutzer:", username);
+            if (localStorage.getItem("userData")) {
+                var userData = JSON.parse(localStorage.getItem("userData"));
+                var user = userData.users.find(user => user.username === username);
+                if (user) {
+                    if (user.password === password) {
+                        console.log("Login erfolgreich!");
+                        window.location.href = "index.html";
+                    } else {
+                        console.log("Falsches Passwort!");
+                        altert("Falsches Passwort!");
+                    }
+                } else {
+                    console.log("Benutzer existiert nicht!");
+                    alert("Benutzer existiert nicht!");
+                }
+            } else {
+                console.log("Keine Benutzerdaten gefunden!");
+                alert("Keine Benutzerdaten gefunden!");
+            }
+        }
+    </script>
+</body>
+
+</html>
